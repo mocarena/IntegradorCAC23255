@@ -1,0 +1,180 @@
+App.progressCountTotal = 22;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/001.JPG' );
+App.progressCountCurrent = 1;
+App.batchStatusString = '001.JPG';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/001_JPG.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/001_JPG.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/001_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/001_JPG.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/001_JPG.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/001_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/002.JPG' );
+App.progressCountCurrent = 2;
+App.batchStatusString = '002.JPG';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/002_JPG.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/002_JPG.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/002_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/002_JPG.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/002_JPG.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/002_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/026.JPG' );
+App.progressCountCurrent = 3;
+App.batchStatusString = '026.JPG';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/026_JPG.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/026_JPG.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/026_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/026_JPG.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/026_JPG.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/026_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/071.JPG' );
+App.progressCountCurrent = 4;
+App.batchStatusString = '071.JPG';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/071_JPG.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/071_JPG.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/071_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/071_JPG.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/071_JPG.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/071_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/comienzo_curso_promotores_07-qpr.jpg' );
+App.progressCountCurrent = 5;
+App.batchStatusString = 'comienzo_curso_promotores_07-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/comienzo_curso_promotores_07-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/comienzo_curso_promotores_07-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/comienzo_curso_promotores_07-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/comienzo_curso_promotores_07-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/comienzo_curso_promotores_07-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/comienzo_curso_promotores_07-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/dsc00056-qpr.jpg' );
+App.progressCountCurrent = 6;
+App.batchStatusString = 'dsc00056-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00056-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00056-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00056-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00056-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00056-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00056-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/dsc00057-qpr.jpg' );
+App.progressCountCurrent = 7;
+App.batchStatusString = 'dsc00057-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00057-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00057-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00057-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00057-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00057-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00057-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/dsc00058-qpr.jpg' );
+App.progressCountCurrent = 8;
+App.batchStatusString = 'dsc00058-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00058-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00058-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00058-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00058-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00058-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00058-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/dsc00061-qpr.jpg' );
+App.progressCountCurrent = 9;
+App.batchStatusString = 'dsc00061-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00061-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00061-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00061-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00061-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00061-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00061-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/dsc00063-qpr.jpg' );
+App.progressCountCurrent = 10;
+App.batchStatusString = 'dsc00063-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00063-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00063-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00063-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00063-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00063-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00063-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/dsc00065-qpr.jpg' );
+App.progressCountCurrent = 11;
+App.batchStatusString = 'dsc00065-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00065-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00065-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00065-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00065-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00065-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00065-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/dsc00290-qpr.jpg' );
+App.progressCountCurrent = 12;
+App.batchStatusString = 'dsc00290-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00290-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00290-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00290-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00290-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00290-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00290-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/dsc00291-qpr.jpg' );
+App.progressCountCurrent = 13;
+App.batchStatusString = 'dsc00291-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00291-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00291-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00291-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00291-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00291-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00291-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/dsc00294-qpr.jpg' );
+App.progressCountCurrent = 14;
+App.batchStatusString = 'dsc00294-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00294-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00294-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/dsc00294-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00294-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00294-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/dsc00294-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/DSCN9789.JPG' );
+App.progressCountCurrent = 15;
+App.batchStatusString = 'DSCN9789.JPG';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/DSCN9789_JPG.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/DSCN9789_JPG.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/DSCN9789_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/DSCN9789_JPG.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/DSCN9789_JPG.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/DSCN9789_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/image10-qpr.jpg' );
+App.progressCountCurrent = 16;
+App.batchStatusString = 'image10-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image10-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image10-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image10-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image10-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image10-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image10-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/image26-qpr.jpg' );
+App.progressCountCurrent = 17;
+App.batchStatusString = 'image26-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image26-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image26-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image26-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image26-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image26-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image26-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/image29-qpr.jpg' );
+App.progressCountCurrent = 18;
+App.batchStatusString = 'image29-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image29-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image29-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image29-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image29-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image29-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image29-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/image31-qpr.jpg' );
+App.progressCountCurrent = 19;
+App.batchStatusString = 'image31-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image31-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image31-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image31-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image31-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image31-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image31-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/image34-qpr.jpg' );
+App.progressCountCurrent = 20;
+App.batchStatusString = 'image34-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image34-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image34-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image34-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image34-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image34-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image34-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/image37-qpr.jpg' );
+App.progressCountCurrent = 21;
+App.batchStatusString = 'image37-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image37-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image37-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image37-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image37-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image37-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image37-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+doc = fw.openDocument( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/image/image7-qpr.jpg' );
+App.progressCountCurrent = 22;
+App.batchStatusString = 'image7-qpr.jpg';
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image7-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image7-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/images/image7-qpr_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}) );
+if( !Files.exists( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image7-qpr_jpg.jpg' ) || confirm( 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image7-qpr_jpg.jpg already exists. Click OK to replace the file.' ) ) 
+fw.exportDocumentAs( doc, 'file:///D|/AFMAL/AFMAL ABRIL 2010/images/promotores/thumbnails/image7-qpr_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}) );
+fw.closeDocument( doc );
+'done';

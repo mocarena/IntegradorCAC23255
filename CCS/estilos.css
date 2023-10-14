@@ -1,0 +1,67 @@
+.textoLinks {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #5273c2; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+.textoInteriores {
+	PADDING-RIGHT: 22px;
+	PADDING-LEFT: 18px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	COLOR: #666666;
+	PADDING-TOP: 5px;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Tahoma;
+	TEXT-DECORATION: none;
+	padding-bottom: 0px;
+}
+.fecha_news {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #ef9d09; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.titular_news {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #004747; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.bajada_news {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #41718d; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.links_news {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #004747; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.textodireccion {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #5273c2; PADDING-TOP: 8px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.textoNovedades {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #5273c2; PADDING-TOP: 5px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.textoBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.textoForm {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #004747; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.selector {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #004747; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #5273c2; FONT-FAMILY: Tahoma
+}
+A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #5273c2; FONT-FAMILY: Tahoma
+}
+.textoNovedadesLink {
+	PADDING-RIGHT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #FF9900; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.Destacado {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #41718d; PADDING-TOP: 5px; FONT-STYLE: normal; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.estilo {
+	margin: 5px;
+}
+.formulario {
+	border: 1px solid #578fce;
+}
+.boton_formulario {
+	height: 20px;
+	width: 100px;
+}
